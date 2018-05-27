@@ -7,7 +7,7 @@ BINDIR = bin
 
 MCU = atmega328p
 # f = 1MHz
-F_CPU = 1000000
+F_CPU = 8000000
 
 # compiler flags
 CFLAGS = -Wall -Os -mmcu=$(MCU) -DF_CPU=$(F_CPU)
